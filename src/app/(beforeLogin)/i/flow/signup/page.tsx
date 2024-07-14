@@ -1,8 +1,5 @@
-import Image from "next/image";
-export default function Home() {
-    return (
-        <main>
-            <div>회원가입 모달</div>
-        </main>
-    );
+import SignUpModal from "@/app/(beforeLogin)/_component/SignupModal";
+
+export default function Signup() {
+    return <SignUpModal />;
 }
